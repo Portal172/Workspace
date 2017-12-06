@@ -1,6 +1,7 @@
 package StringInJava;
 
 public class EqualsMethodOperaot {
+	
 	public static void main(String[] args) {
 		String s1 = "ankita";
 		String s2 = "sharma";
@@ -10,6 +11,18 @@ public class EqualsMethodOperaot {
 		String s5 = new String("ankita");
 		String s4 = new String("sharma");
 		String s7= "Ankita";
+		int i =0;
+		StringBuffer sb = new StringBuffer("hello");
+		s7.concat("SHarma");
+		System.out.println(s7);
+		System.out.println(sb);
+		sb.append("java");
+		StringBuffer sv = new StringBuffer();
+		sv = sb.append("sharma");
+		System.out.println(sv.equals(sb));
+		System.out.println(sb);
+		
+	
 		
 		// equals () method compares the original content of the string
 		// == operator compares the reference of the string
